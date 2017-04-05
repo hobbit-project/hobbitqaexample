@@ -1,0 +1,10 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hobbit: <http://w3id.org/hobbit/vocab#> .
+@prefix gerbilqa: <http://w3id.org/gerbil/qa/hobbit/vocab#> .
+
+<http://www.example.org/exampleSystem/ExampleQaldSystem> a  hobbit:SystemInstance; 
+	rdfs:label	"ExampleQaSystem"@en;
+	rdfs:comment	"This is an example description"@en;
+        hobbit:imageName "git.project-hobbit.eu:4567/myhobbitusername/myprojectname";
+        hobbit:implementsAPI <http://benchmark.org/MyNewBenchmark/BenchmarkApi> .
+	
